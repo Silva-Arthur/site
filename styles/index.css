@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Roboto:ital,wght@1,100;1,400&display=swap');
 
-* {
+* { 
     margin: 0;
-    padding: 0;    
+    padding: 0;
     background-color: rgb(155, 177, 177);
     font-family: 'Roboto Slab', 'Roboto', sans-serif;
 }
 
-.main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+main {
     align-items: center;
+    justify-content: center;
+}
+
+#text-top {
+    align-items: center;
+    justify-content: center;
 }
 
 h1, h2 {
     margin: auto;
-    width: 90%;
+    width: 100%;
     text-align: center;
     color: rgb(24, 56, 59);
     content: "\2699";
