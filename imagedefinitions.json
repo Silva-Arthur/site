@@ -1,6 +1,6 @@
 [
     {
-        "name": "site2",
+        "name": "arn:aws:ecs:sa-east-1:334399188311:cluster/site2",
         "imageUri": "arthurosilva/site:latest"
     }
 ]
