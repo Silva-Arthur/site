@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - echo Estou no prebuild
+  
+  build:
+    commands:
+      - echo Estou no build
+   
+  post_build:
+    commands:
+      - echo Estou no posstBuild
