@@ -22,4 +22,4 @@ phases:
       # aws s3 cp s3://$ECS_SERVICE_PARAMS_BUCKET/$ECS_SERVICE_PARAMS_KEY cf-config.json
       # We assume the parameters json file has IMAGE_NAME_PLACEHOLDER in it, if not this will not work
       # sed -i "s/IMAGE_NAME_PLACEHOLDER/$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com\/$(cat ./repo_name):$BRANCH-$(cat ./timestamp)/g" ./cf-config.json
-      - printf '[{"name":"arn:aws:ecs:sa-east-1:334399188311:task/site2/06610afe04ba453db6d3de6b010ca56c","imageUri":"arthurosilva/site:latest"}]' > imagedefinitions.json
+      - printf '[{"name":"meu-site","imageUri":"arthurosilva/site:latest"}]' > imagedefinitions.json
