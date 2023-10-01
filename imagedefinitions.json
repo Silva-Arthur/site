@@ -1,6 +1,6 @@
 [
     {
-        "name": "arn:aws:ecs:sa-east-1:334399188311:service/site2/service-site2",
+        "name": "arn:aws:ecs:sa-east-1:334399188311:task/site2/06610afe04ba453db6d3de6b010ca56c",
         "imageUri": "arthurosilva/site:latest"
     }
 ]
