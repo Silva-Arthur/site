@@ -1,49 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=PT+Serif:ital,wght@1,400;1,700&display=swap');
 
-h1,
-h2,
-h3,
-p {
-  font-family: 'Martian Mono', monospace;
-  color: white;
+.apresentacao{
+  background-color: white;
+  border: solid 3px red;
 
+
+
+  height: 100vh;
+  width: 35vw;
 }
 
-h2 {
-  font-family: 'PT Serif', serif;
-  color: white;
+.menus {
+  background-color: #040429;
+  border: solid 3px red;
+  position: absolute;
+  height: 100vh;
+  width: 65vw;
+  right: 0;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.apresentacao {
-  margin: 1rem 0.7rem 1rem 1rem;
-}
-
-.beginend {
-  margin-left: 1.5rem;
-}
-
-.div-apresentacao {
-  background-color: #162836;
-  margin: 0 auto 3rem;
-  text-align: justify;
-  max-width: 600px;
-  border-radius: 0.7rem;
-  padding: 0.7rem 1rem;
-}
-
-ul {
-  padding:0;
-  margin:0;
-  display: flex;
-  list-style: none;
-  justify-content:center;
-}
-
-li {
-  padding: 2rem;
+#imgpessoal {
+  height: 100%;
+  width: 100%;
 }
