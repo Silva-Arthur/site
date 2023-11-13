@@ -1,26 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=PT+Serif:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.apresentacao{
-  background-color: white;
-  border: solid 3px red;
+.col-md-6 {
+  border: solid 1px red;
 
-
-
-  height: 100vh;
-  width: 35vw;
+  padding: 1rem;
+  margin: 0;
+  /*back*/
 }
 
-.menus {
-  background-color: #040429;
-  border: solid 3px red;
-  position: absolute;
-  height: 100vh;
-  width: 65vw;
-  right: 0;
+img {
+    width: 50%;
+    object-fit: cover;
+    object-position: 20% 10%; /* try 20% 10% */
+
 }
 
-#imgpessoal {
-  height: 100%;
-  width: 100%;
+.titulo {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.img-pessoal {
+  border: solid 2px white;
+}
+
+h1, p {
+  color: antiquewhite;
+}
+
+.padding2rem {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 567px) {
+
+}
+
+@media screen and (min-width: 568px) and (max-width: 1000px) {
+
 }
